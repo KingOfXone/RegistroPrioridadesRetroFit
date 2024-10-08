@@ -28,7 +28,7 @@ object AppModule {
         ).fallbackToDestructiveMigration()
             .build()
 
-    const val BASE_URL = "https://tarea4-ayabhdemhzdpe4hj.canadacentral-01.azurewebsites.net/"
+    const val BASE_URL = "https://api-betances-h2bjdje6gth9b0hg.eastus2-01.azurewebsites.net/"
 
     @Singleton
     @Provides
