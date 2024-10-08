@@ -68,6 +68,9 @@ dependencies {
 
     //room
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation(libs.androidx.material3.android)
+    implementation(libs.protolite.well.known.types)
+    implementation(libs.androidx.ui.tooling.preview.android)
     annotationProcessor("androidx.room:room-compiler:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
     //  optional - Kotlin Extensions and Coroutines support for Room
